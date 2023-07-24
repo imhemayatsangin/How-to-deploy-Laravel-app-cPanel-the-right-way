@@ -10,8 +10,9 @@ Uploading and deployment of Laravel application to cPanel step by step guide.
 6. Create the database and user for it.
 7. Give the credentials in the .env file and also change the app_url to your domain name and app_debug as follows: <br>
 <code> APP_DEBUG=false
-APP_URL=https://example.com
+APP_URL=https://example.com <br>
 </code>
+<br>
         -------------------Done! Enjoy your application deployed successfully.-----------------------
 # How to create symlink and link your Storage/app/public folder to your public_html/Storage folder.
 1. Modify your filesyste.php file and check it in the repository. This file is located in your config folder of your project.<br>
