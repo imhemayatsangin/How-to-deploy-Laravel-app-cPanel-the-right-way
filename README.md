@@ -15,7 +15,7 @@ DB_DATABASE=database
 DB_USERNAME=dbuser
 DB_PASSWORD=kH34Kf01@kd
 
-</code>
+ </code>
 
         -------------------Done! Enjoy your application deployed successfully.-----------------------
 # How to create symlink and link your Storage/app/public folder to your public_html/Storage folder.
