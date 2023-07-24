@@ -14,10 +14,9 @@ APP_URL=https://example.com
 DB_DATABASE=database
 DB_USERNAME=dbuser
 DB_PASSWORD=kH34Kf01@kd
-
  </code>
 
-        -------------------Done! Enjoy your application deployed successfully.-----------------------
+    
 # How to create symlink and link your Storage/app/public folder to your public_html/Storage folder.
 1. Modify your filesyste.php file and check it in the repository. This file is located in your config folder of your project.<br>
 2. If you can't run the artisan commands then you can create a rout as follows and run in your browser it will run the command to create link.<br>
