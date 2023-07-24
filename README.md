@@ -1,4 +1,4 @@
-# How-to-deploy-Laravel-app-cPanel-the-right-way
+# How to deploy Laravel app cPanel the right way?
 Uploading and deployment of Laravel application to cPanel step by step guide.
 1. Create new folder(laravelapp) in the root directory at the same level with public_html<br>
 2. zip your project files and then upload to the laravelapp folder and unzip there except the public folder in your project
