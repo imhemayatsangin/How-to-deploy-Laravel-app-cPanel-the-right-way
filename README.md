@@ -31,7 +31,7 @@ DB_PASSWORD=kH34Kf01@kd </code>
     }
 }); </code>
 
-3. Now your Storage/app/public will be linked to your public_html/Storage folder and if your images or Storage directory is giving the persmission error then you must check your permission where for the Storage the permission should be 0777, for the sub folder 0755 and for the images and files 0644 should be the correct permissions to access.
+3. Now your Storage/app/public will be linked to your public_html/Storage folder and if your images or Storage directory is giving the persmission error then you must check your permission where for the Storage the permission should be 0777, for the sub folder 0755 and for the images and files 0644 should be the correct permissions to access.<br>
    #Note
-Check the files in the repository for more details.
+Check the files in the repository for more details.<br>
    --------Done! Enjoy the show-------------- 
