@@ -13,8 +13,7 @@ Uploading and deployment of Laravel application to cPanel step by step guide.
 APP_URL=https://example.com 
 DB_DATABASE=database
 DB_USERNAME=dbuser
-DB_PASSWORD=kH34Kf01@kd
- </code>
+DB_PASSWORD=kH34Kf01@kd </code>
 
     
 # How to create symlink and link your Storage/app/public folder to your public_html/Storage folder.
@@ -26,11 +25,11 @@ DB_PASSWORD=kH34Kf01@kd
 
     if (!is_link($linkFolder)) {
         symlink($targetFolder, $linkFolder);
-        return '<h1>Storage linked successfully</h1>';
+        return 'Storage linked successfully';
     } else {
-        return '<h1>Storage link already exists</h1>';
+        return 'Storage link already exists';
     }
-});     </code>
+}); </code>
 
 3. Now your Storage/app/public will be linked to your public_html/Storage folder and if your images or Storage directory is giving the persmission error then you must check your permission where for the Storage the permission should be 0777, for the sub folder 0755 and for the images and files 0644 should be the correct permissions to access.
    #Note
