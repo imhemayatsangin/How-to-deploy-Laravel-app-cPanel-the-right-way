@@ -30,8 +30,8 @@ DB_PASSWORD=kH34Kf01@kd </code>
         return 'Storage link already exists';
     }
 }); </code>
-
-3. Now your Storage/app/public will be linked to your public_html/Storage folder and if your images or Storage directory is giving the persmission error then you must check your permission where for the Storage the permission should be 0777, for the sub folder 0755 and for the images and files 0644 should be the correct permissions to access.<br>
+4. Now go to your browser and after the domain name write storage-link and hit enter<br> <code> https://example.com/storage-link </code> 
+5. Now your Storage/app/public will be linked to your public_html/Storage folder and if your images or Storage directory is giving the persmission error then you must check your permission where for the Storage the permission should be 0777, for the sub folder 0755 and for the images and files 0644 should be the correct permissions to access.<br>
    # Note
 Check the files in the repository for more details.<br>
    --------Done! Enjoy the show-------------- 
