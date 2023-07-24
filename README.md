@@ -10,9 +10,13 @@ Uploading and deployment of Laravel application to cPanel step by step guide.
 6. Create the database and user for it.
 7. Give the credentials in the .env file and also change the app_url to your domain name and app_debug as follows: <br>
 <code> APP_DEBUG=false
-APP_URL=https://example.com <br>
+APP_URL=https://example.com 
+DB_DATABASE=database
+DB_USERNAME=dbuser
+DB_PASSWORD=kH34Kf01@kd
+
 </code>
-<br>
+
         -------------------Done! Enjoy your application deployed successfully.-----------------------
 # How to create symlink and link your Storage/app/public folder to your public_html/Storage folder.
 1. Modify your filesyste.php file and check it in the repository. This file is located in your config folder of your project.<br>
@@ -30,4 +34,6 @@ APP_URL=https://example.com <br>
 });     </code>
 
 3. Now your Storage/app/public will be linked to your public_html/Storage folder and if your images or Storage directory is giving the persmission error then you must check your permission where for the Storage the permission should be 0777, for the sub folder 0755 and for the images and files 0644 should be the correct permissions to access.
+   #Note
+Check the files in the repository for more details.
    --------Done! Enjoy the show-------------- 
